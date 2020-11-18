@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/forms/pdpa/static/css/main.bde247e0.chunk.css",
+    "main.js": "/forms/pdpa/static/js/main.e7a7c751.chunk.js",
+    "main.js.map": "/forms/pdpa/static/js/main.e7a7c751.chunk.js.map",
+    "runtime-main.js": "/forms/pdpa/static/js/runtime-main.88939aa6.js",
+    "runtime-main.js.map": "/forms/pdpa/static/js/runtime-main.88939aa6.js.map",
+    "static/js/2.407e0da5.chunk.js": "/forms/pdpa/static/js/2.407e0da5.chunk.js",
+    "static/js/2.407e0da5.chunk.js.map": "/forms/pdpa/static/js/2.407e0da5.chunk.js.map",
+    "static/js/3.0640c566.chunk.js": "/forms/pdpa/static/js/3.0640c566.chunk.js",
+    "static/js/3.0640c566.chunk.js.map": "/forms/pdpa/static/js/3.0640c566.chunk.js.map",
+    "index.html": "/forms/pdpa/index.html",
+    "static/css/main.bde247e0.chunk.css.map": "/forms/pdpa/static/css/main.bde247e0.chunk.css.map",
+    "static/js/2.407e0da5.chunk.js.LICENSE.txt": "/forms/pdpa/static/js/2.407e0da5.chunk.js.LICENSE.txt",
+    "static/media/avatar2.65241781.png": "/forms/pdpa/static/media/avatar2.65241781.png",
+    "static/media/whatsapp.2bcd9b3d.png": "/forms/pdpa/static/media/whatsapp.2bcd9b3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88939aa6.js",
+    "static/js/2.407e0da5.chunk.js",
+    "static/css/main.bde247e0.chunk.css",
+    "static/js/main.e7a7c751.chunk.js"
+  ]
+}

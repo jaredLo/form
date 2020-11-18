@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/forms/contact/static/css/main.67b5329b.chunk.css",
+    "main.js": "/forms/contact/static/js/main.31b24c71.chunk.js",
+    "main.js.map": "/forms/contact/static/js/main.31b24c71.chunk.js.map",
+    "runtime-main.js": "/forms/contact/static/js/runtime-main.3eac3a15.js",
+    "runtime-main.js.map": "/forms/contact/static/js/runtime-main.3eac3a15.js.map",
+    "static/js/2.407e0da5.chunk.js": "/forms/contact/static/js/2.407e0da5.chunk.js",
+    "static/js/2.407e0da5.chunk.js.map": "/forms/contact/static/js/2.407e0da5.chunk.js.map",
+    "static/js/3.0640c566.chunk.js": "/forms/contact/static/js/3.0640c566.chunk.js",
+    "static/js/3.0640c566.chunk.js.map": "/forms/contact/static/js/3.0640c566.chunk.js.map",
+    "index.html": "/forms/contact/index.html",
+    "static/css/main.67b5329b.chunk.css.map": "/forms/contact/static/css/main.67b5329b.chunk.css.map",
+    "static/js/2.407e0da5.chunk.js.LICENSE.txt": "/forms/contact/static/js/2.407e0da5.chunk.js.LICENSE.txt",
+    "static/media/avatar2.65241781.png": "/forms/contact/static/media/avatar2.65241781.png",
+    "static/media/whatsapp.2bcd9b3d.png": "/forms/contact/static/media/whatsapp.2bcd9b3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3eac3a15.js",
+    "static/js/2.407e0da5.chunk.js",
+    "static/css/main.67b5329b.chunk.css",
+    "static/js/main.31b24c71.chunk.js"
+  ]
+}

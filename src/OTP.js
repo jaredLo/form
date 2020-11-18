@@ -11,15 +11,16 @@ function App() {
         </div>
       <header>
       <h3 style={{textAlign:"center"}}>
-            Offer To Purchase Form
+            Offer To Purchase
           </h3>
+        <h3>Developer</h3>
         <table className="purchaser">
           <tr>
             <th>
-              <p>WCT OUG DEVELOPMENT SDN BHD (Co. No. 197301000681)</p>
+              WCT OUG DEVELOPMENT SDN BHD (Co. No. 197301000681)
             </th>
-            <th><p>PROJECT</p></th>
-            <th><p>MAPLE RESIDENCES</p></th>
+            <th>PROJECT</th>
+            <th>MAPLE RESIDENCES</th>
 
           </tr>
           
@@ -31,25 +32,19 @@ function App() {
         <table className="purchaser">
           <tr>
             <th>
-              <p>
-                PARCEL NO.
-                </p>
+              PARCEL NO.
           </th>
           <th>
               <input type="text"/>
           </th>
-            <th>
-              <p>
-                PARCEL TYPE
-                </p>
+          <th style={{textAlign:"right"}}>
+              PARCEL TYPE
           </th>
           <th>
           <input type="text"/>
           </th>
-          <th rowSpan="2">
-            <p>
-                BUILT-UP AREA
-                </p>
+          <th rowSpan="2" style={{textAlign:"right"}}>
+              BUILT-UP AREA
           </th>
           <th>
           <input type="text" placeholder="SQ. M"/>
@@ -57,9 +52,7 @@ function App() {
           </tr>
           <tr>
             <th>
-              <p>
-                CARPARK NO.
-                </p>
+              CARPARK NO.
           </th>
           <th>
               <input type="text"/>
@@ -68,7 +61,6 @@ function App() {
 
           </th>
           <th>
-          <input type="text"/>
           </th>
 
           <th>
@@ -79,14 +71,14 @@ function App() {
 
           <div className="purchaser-container">
 
-          <p><b>B. PURCHASER(S) DETAILS</b></p>
+          <p style={{ marginTop: "50px"}}><b>B. PURCHASER(S) DETAILS</b></p>
           <table className="purchaser">
             <tr>
-              <th><p>NAME(S)</p></th>
-              <th><p>NRIC / CO. NO. / PASSPORT NO.</p></th>
-              <th><p>GENDER (M/F)</p></th>
-              <th><p>RACE (M/C/I/O)</p></th>
-              <th><p>CONTACT NO.</p></th>
+              <th>NAME(S)</th>
+              <th>NRIC / CO. NO. / PASSPORT NO.</th>
+              <th>GENDER (M/F)</th>
+              <th>RACE (M/C/I/O)</th>
+              <th>CONTACT NO.</th>
             </tr>
             <tr>
               <td>
@@ -161,40 +153,48 @@ function App() {
             <table className="purchaser-2">
               <tr>
               <th>
-                <p>CONTACT PERSON</p>
+                CONTACT PERSON
               </th>
               <th>
                 <input type='text'/>
               </th>
-                <th rowSpan="4">
-                <p>MAILING ADDRESS</p>
+                <th rowSpan="4" style={{textAlign:"center", justifySelf:"self-start"}}>
+                MAILING ADDRESS
               </th>
-              <th rowSpan="4">
-                <textarea rowSpan="4" style={{height:"150px", width:"100%"}}/>
+              <th >
+                <input type="text"/>
               </th>
+              
               </tr>
 
               <tr>
                 <th>
-                <p>EMAIL ADDRESS</p>
+                  EMAIL ADDRESS
                 </th>
                 <th>
                 <input type='text'/>
               </th>
+              <th >
+                <input type="text"/>
+              </th>
+              
               </tr>
 
               <tr>
                 <th>
-                <p>OFFICE TEL NO.</p>
+                  OFFICE TEL NO.
                 </th>
                 <th>
                 <input type='text'/>
+              </th>
+              <th >
+                <input type="text"/>
               </th>
               </tr>
 
               <tr>
                 <th>
-                <p>MOBILE TEL NO.</p>
+                  MOBILE TEL NO.
                 </th>
                 <th>
                 <input type='text'/>
@@ -209,24 +209,24 @@ function App() {
 
           <div className="purchaser-container">
 
-          <p><b>C. PAYMENT DETAILS</b></p>
+          <p style={{ marginTop: "50px"}}><b>C. PAYMENT DETAILS</b></p>
             <table className="purchaser">
               <tr>
                 <th>
-                  <p>PARCEL PRICE</p>
+                  PARCEL PRICE
                 </th>
                 <th>
                   <input type="number" placeholder="RM"/>
                 </th>
                 <th>
-                <p>BOOKING FEE</p>
+                  BOOKING FEE
                 </th>
 
                 <th>
                   <input type="number" placeholder="RM"/>
                 </th>
                 <th>
-                <p>WCT RECEIPT NO.</p>
+                  WCT RECEIPT NO.
                 </th>
                 <th>
                 <input type="text" />
@@ -235,19 +235,19 @@ function App() {
 
               <tr>
                 <th>
-                <p>BUMI DISCOUNT</p>
+                  BUMI DISCOUNT
                 </th>
                 <th>
                 <input type="text" placeholder="YES/NO"/>
                 </th>
                 <th>
-                <p>PAYMENT MODE</p>
+                  PAYMENT MODE
                 </th>
                 <th>
                 <input type="text" placeholder="YES/NO"/>
                 </th>
                 <th>
-                <p>CASH PURCHASE</p>
+                  CASH PURCHASE
                 </th>
                 <th>
                 <input type="text" placeholder="YES/NO"/>
@@ -256,19 +256,19 @@ function App() {
 
               <tr>
                 <th>
-                <p>BUMI DISCOUNT</p>
+                  BUMI DISCOUNT
                 </th>
                 <th>
                 <input type="number" placeholder="RM"/>
                 </th>
                 <th>
-                <p>CHEQUE NUMBER</p>
+                  CHEQUE NUMBER
                 </th>
                 <th>
                 <input type="text"/>
                 </th>
                 <th>
-                <p>END FINANCING</p>
+                  END FINANCING
                 </th>
                 <th>
                 <input type="text" placeholder="BANK'S NAME"/>
@@ -277,19 +277,19 @@ function App() {
 
               <tr>
                 <th>
-                <p>SPA PRICE</p>
+                  SPA PRICE
                 </th>
                 <th>
                 <input type="number" placeholder="RM"/>
                 </th>
                 <th>
-                <p>CARD APPROVAL CODE</p>
+                  CARD APPROVAL CODE
                 </th>
                 <th>
                 <input type="text"/>
                 </th>
                 <th>
-                <p>SOLICITOR</p>
+                  SOLICITOR
                 </th>
                 <th>
                 <input type="text"/>
@@ -299,7 +299,7 @@ function App() {
         </div>
         
         <div className="acknowledgement">
-          <h4>ACKNOWLEDGEMENT, CONFIRMATION AND CONSENT </h4>
+          <h3>ACKNOWLEDGEMENT, CONFIRMATION AND CONSENT </h3>
           <p>I/We hereby acknowledge and confirm that the particulars given herein are correct. I/We agree to the terms and conditions stated overleaf and hereby offer to purchase the property upon the said terms and conditions. I/We also confirm that I/We have read the Data Protection Notice stated overleaf and hereby give my/our consent to WCT Holdings Berhad and its related companies* (“WCT Group”) to process my personal data in accordance with the Notice.  </p>
 
         </div>
@@ -309,7 +309,7 @@ function App() {
             Terms And Conditions Of Offer To Purchase
           </h3>
           
-          <ol className="list">
+          <ol className="mainList">
             <li>&nbsp;My/Our offer to purchase the Property shall only be deemed accepted upon clearance of the booking fee paid by me/us which sum is as stipulated in Section C of the Offer to Purchase (“Booking Fee”) and issuance of the Developer’s official receipt for the same. No other act(s) or conduct(s) shall constitute acceptance. Subject to the Developer’s acceptance of my/our offer to purchase, the Booking Fee so paid shall be deemed as part payment towards the purchase price of the Property (“Purchase Price”).</li>
             <br/>
             <li>&nbsp;In any of the following events, the Developer shall have the absolute right and be entitled to forthwith rescind the sale and to deal with the Property as the Developer may deem fit in its absolute discretion without further reference to me/us whereupon I/we shall have no claims whatsoever against the Developer:-
@@ -340,8 +340,8 @@ function App() {
             <li>&nbsp;Any penalty on the stamp duty payable on the SPA Documents shall be borne by me/us if the SPA Documents are not signed and stamped within one (1) month from the date of payment of the Booking Fee by me/us.</li>
 
           </ol>
-        </div>
 
+      </div>
       </div>
       <div className="privacy">
         <p><b>Privacy Notice*</b></p>
